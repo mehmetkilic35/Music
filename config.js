@@ -1,6 +1,6 @@
 module.exports = {
         px: '!', //prefix
-        playing: 'Semih Yılmaz-Müzik Botu', //Botunuzun oynuyor durumu
+        playing: '!y', //Botunuzun oynuyor durumu
 
     opt: {
         DJ: {
