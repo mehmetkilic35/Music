@@ -4,16 +4,16 @@ module.exports = {
 
     opt: {
         DJ: {
-            enabled: false, //EĞER SADECE DJLER KULLANA BİLSİN İSTİYOR İSENİZ false yazanı true yapın.
-            roleName: 'DJ', //DJ ROLÜNÜN İSMİ NE OLACAK İSE YAZIN SUNUCUNUZDA O ROLDEKİLER KULLANA BİLİR
-            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume'] //DOKUNMA
+            enabled: false, //Eğer sadece DJ'ler kullanabilsin istiyorsanız false yazanı true yapın.
+            roleName: 'DJ', //DJ rolünün ismi ne ise yazın. Discord sunucunuzda sadece o roldekiler kullanabilir.
+            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume'] //Dokunmayın
         },
-        maxVol: 250, //maximum ses seviyesi kaç olacak belirte bilirsiniz.
-        loopMessage: false, //elleme
+        maxVol: 250, //Maximum ses seviyesi kaç olacak belirte bilirsiniz.
+        loopMessage: false, //Elleme
         discordPlayer: {
             ytdlOptions: {
-                quality: 'highestaudio', //elleme
-                highWaterMark: 1 << 25 //elleme
+                quality: 'highestaudio', //Elleme
+                highWaterMark: 1 << 25 //Elleme
             }
         }
     }
