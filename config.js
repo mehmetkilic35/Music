@@ -1,7 +1,7 @@
 module.exports = {
         px: '!', //prefix
         playing: '!h', //Botunuzun oynuyor durumu
-        messageColor:'BLUE',
+        messageColor:'BLUE',//Mesaj kutularının rengi. Bot logo renginize göre yazın.
 
     opt: {
         DJ: {
