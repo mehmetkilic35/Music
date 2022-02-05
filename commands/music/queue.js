@@ -16,7 +16,7 @@ module.exports = {
         const embed = new MessageEmbed();
         const methods = ['🔁', '🔂'];
 
-        embed.setColor('RED');
+        embed.setColor(client.config.messageColor);
         embed.setThumbnail(message.guild.iconURL({ size: 2048, dynamic: true }));
         embed.setAuthor(`Sunucu Müzik Listesi - ${message.guild.name} ${methods[queue.repeatMode]}`, client.user.displayAvatarURL({ size: 1024, dynamic: true }));
 

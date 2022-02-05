@@ -23,7 +23,7 @@ module.exports = {
 
         const embed = new MessageEmbed();
 
-        embed.setColor('RED');
+        embed.setColor(client.config.messageColor);
         embed.setAuthor(`Aranan Müzik: ${args.join(' ')}`, client.user.displayAvatarURL({ size: 1024, dynamic: true }));
 
         const maxTracks = res.tracks.slice(0, 10);

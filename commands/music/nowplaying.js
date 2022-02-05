@@ -15,7 +15,7 @@ module.exports = {
 
         const embed = new MessageEmbed();
 
-        embed.setColor('RED');
+        embed.setColor(client.config.messageColor);
         embed.setThumbnail(track.thumbnail);
         embed.setAuthor(track.title, client.user.displayAvatarURL({ size: 1024, dynamic: true }));
 

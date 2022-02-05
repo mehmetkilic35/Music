@@ -1,6 +1,7 @@
 module.exports = {
         px: '!', //prefix
         playing: '!h', //Botunuzun oynuyor durumu
+        messageColor:'#00BCFF',
 
     opt: {
         DJ: {
