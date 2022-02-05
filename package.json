@@ -11,6 +11,7 @@
     "discord.js": "^13.1.0",
     "ffmpeg-static": "^4.4.0",
     "ms": "^3.0.0-canary.1",
+    "node-events": "0.0.2",
     "opusscript": "^0.0.8"
   }
 }

@@ -1,6 +1,5 @@
 module.exports = {
         px: '!',
-        token: '', //DİSCORD BOTUNUZUN TOKENİNİ YAZIN
         playing: 'Semih Yılmaz - Müzik Botu',
 
     opt: {
