@@ -1,7 +1,7 @@
 module.exports = {
         px: '!', //prefix
         playing: '!h', //Botunuzun oynuyor durumu
-        messageColor:'BLUE',//Mesaj kutularının rengi. Bot logo renginize göre yazın.
+        messageColor:'#00BCFF', //Mesaj kutularının rengi. HEX kodu olarak yazınız. colors.md dosyası içerisinde en çok kullanılanları veriyorum.
 
     opt: {
         DJ: {
