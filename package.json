@@ -2,7 +2,7 @@
   "name": "glitch-v13-music-bot",
   "main": "main.js",
   "author": "SemihYılmaz",
-  "description": "Created by Semih Yılmaz",
+  "description": "discord.js v13 glitch müzik botu",
   "scripts": {
     "start": "node main.js"
   },

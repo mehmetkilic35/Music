@@ -24,5 +24,5 @@ player.on('channelEmpty', (queue) => {
 });
 
 player.on('queueEnd', (queue) => {
-    queue.metadata.send('Bütün çalma sırası bitti, bence biraz daha müzik dinleye bilirsin. ✅');
+    queue.metadata.send('Bütün çalma sırası bitti, bence biraz daha müzik dinleyebilirsin. ✅');
 });

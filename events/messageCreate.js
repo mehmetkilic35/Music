@@ -23,7 +23,7 @@ module.exports = (client, message) => {
     if (cmd && cmd.voiceChannel) {
         if (!message.member.voice.channel) return message.channel.send(`${message.author}, Bir ses kanalına bağlı değilsin. ❌`);
 
-        if (message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return message.channel.send(`${message.author}, Benim ile aynı ses kanalında değilsiniz. ❌`);
+        if (message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return message.channel.send(`${message.author}, Benimle aynı ses kanalında değilsiniz. ❌`);
     }
 
     if (cmd) cmd.execute(client, message, args);

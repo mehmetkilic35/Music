@@ -11,6 +11,6 @@ module.exports = {
 
         const success = queue.setPaused(true);
 
-        return message.channel.send(success ? `Şuanda çalan **${queue.current.title}** isimli müzik durdu. ✅` : `${message.author}, Birşeyler yanlış gitti. ❌`);
+        return message.channel.send(success ? `Şuanda çalan **${queue.current.title}** isimli müzik durdu. ✅` : `${message.author}, Bir şeyler yanlış gitti. ❌`);
     },
 };

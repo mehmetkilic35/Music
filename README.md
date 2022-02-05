@@ -1,4 +1,4 @@
 # Discord.js v13 Müzik Botu
 
-Semih Yılmaz Özel Discord.js v13 Müzik Botu Altyapısı.<br>
-<b>.env</b> İsimli Dosyaya Bot Tokeninizi Yazın ve Kullanın.<br>
+Semih Yılmaz özel discord.js v13 Müzik Botu altyapısı.<br>
+<b>(.env)</b> isimli dosyaya bot tokeninizi yazın ve kullanın.<br>

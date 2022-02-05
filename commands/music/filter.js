@@ -27,6 +27,6 @@ module.exports = {
 
         await queue.setFilters(filtersUpdated);
 
-        message.channel.send(`Uygulandı: **${filter}**, Filtre Durumu: **${queue.getFiltersEnabled().includes(filter) ? 'Aktif' : 'Aktif Değil'}** ✅\n**Unutmayın müzik uzun ise filtre uygulama süreside ona göre uzaya bilir.**`);
+        message.channel.send(`Uygulandı: **${filter}**, Filtre Durumu: **${queue.getFiltersEnabled().includes(filter) ? 'Aktif' : 'Aktif Değil'}** ✅\n**Unutmayın müzik uzun ise filtre uygulama süreside ona göre uzayabilir.**`);
     },
 };
