@@ -3,6 +3,7 @@ dependencies:
   discord.js: 13.6.0
   ffmpeg-static: 4.4.1
   ms: 3.0.0-canary.1
+  node-events: 0.0.2
   opusscript: 0.0.8
 packages:
   /@derhuerst/http-basic/8.2.2:
@@ -388,6 +389,12 @@ packages:
       node: '>=12.13'
     resolution:
       integrity: sha512-kh8ARjh8rMN7Du2igDRO9QJnqCb2xYTJxyQYK7vJJS4TvLLmsbyhiKpSW+t+y26gyOyMd0riphX0GeWKU3ky5g==
+  /node-events/0.0.2:
+    dev: false
+    engines:
+      node: '>= 0.10.0'
+    resolution:
+      integrity: sha1-YXHdARJIOc5NK1CrPZ22ya6VNBA=
   /node-fetch/2.6.7:
     dependencies:
       whatwg-url: 5.0.0
@@ -561,4 +568,5 @@ specifiers:
   discord.js: ^13.1.0
   ffmpeg-static: ^4.4.0
   ms: ^3.0.0-canary.1
+  node-events: 0.0.2
   opusscript: ^0.0.8
