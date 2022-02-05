@@ -1,8 +1,8 @@
 {
-  "name": "button-music-bot",
+  "name": "glitch-v13-music-bot",
   "main": "main.js",
   "author": "SemihYılmaz",
-  "description": "A complete code to download for a cool Discord buttons music bot.",
+  "description": "Created by Semih Yılmaz",
   "scripts": {
     "start": "node main.js"
   },
@@ -11,7 +11,10 @@
     "discord.js": "^13.1.0",
     "ffmpeg-static": "^4.4.0",
     "ms": "^3.0.0-canary.1",
-    "node-events": "0.0.2",
-    "opusscript": "^0.0.8"
+    "opusscript": "^0.0.8",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
