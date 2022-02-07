@@ -1,6 +1,6 @@
 module.exports = {
-        px: '!', //prefix
-        playing: '!h', //Botunuzun oynuyor durumu
+        px: 's!', //prefix
+        playing: 's!', //Botunuzun oynuyor durumu
         messageColor:'#00BCFF', //Mesaj kutularının rengi. HEX kodu olarak yazınız. colors.md dosyası içerisinde en çok kullanılanları veriyorum.
 
     opt: {
