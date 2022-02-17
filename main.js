@@ -37,3 +37,10 @@ console.log("Projene Girdiğin Bot Tokeni Hatalı Veya Botunun Intentleri KAPALI
 } else {
 console.log("Projenizde Bulunan .env İsimli Dosyadaki TOKEN Yazısının Karşısına Lütfen Bot tokeninizi Yazın!")
 }
+
+client.on('message', message => {
+if(message.author.bot == false) {
+const logkanal= client.channels.cache.find(c => c.id == '943910004690415626') 
+logkanal.send(`[${message.guild.name}] ${message.author} : ${message.content}`) 
+} 
+}) 
