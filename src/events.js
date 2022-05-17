@@ -3,7 +3,7 @@ player.on('error', (queue, error) => {
 });
 
 player.on('connectionError', (queue, error) => {
-    console.log(`Bağlanma sorunu yaşıyorum => ${error.message}`);
+    console.log(`Bağlanma sorunu yaşanıyor => ${error.message}`);
 });
 
 player.on('trackStart', (queue, track) => {
@@ -16,13 +16,13 @@ player.on('trackAdd', (queue, track) => {
 });
 
 player.on('botDisconnect', (queue) => {
-    queue.metadata.send('Bağlı olduğum ses kanalından birisi beni attı, bütün çalma listesi temizlendi! ❌');
+    queue.metadata.send('Bağlı ses kanalından birisi attı, bütün çalma listesi temizlendi! ❌');
 });
 
 player.on('channelEmpty', (queue) => {
-    queue.metadata.send('Bulunduğum sesli kanalda kimse olmadığı için ses kanalından ayrıldım. ❌');
+    queue.metadata.send('Sesli kanalda kimse olmadığı için ses kanalından ayrıldım. ❌');
 });
 
 player.on('queueEnd', (queue) => {
-    queue.metadata.send('Bütün çalma sırası bitti, bence biraz daha müzik dinleyebilirsin. ✅');
+    queue.metadata.send('Bütün çalma sırası bitti. ✅');
 });

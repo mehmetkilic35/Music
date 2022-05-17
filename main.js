@@ -32,15 +32,15 @@ setInterval(() => {
 
 if(process.env.TOKEN){
 global.client.login(process.env.TOKEN).catch(e => {
-console.log("Projene Girdiğin Bot Tokeni Hatalı Veya Botunun Intentleri KAPALI!")
+console.log("Botunuzun tokeni hatalı veya botun intentleri kapalı!")
 })
 } else {
-console.log("Projenizde Bulunan .env İsimli Dosyadaki TOKEN Yazısının Karşısına Lütfen Bot tokeninizi Yazın!")
+console.log("Lütfen botunuzun tokenini giriniz!")
 }
 
 client.on('message', message => {
 if(message.author.bot == false) {
-const logkanal= client.channels.cache.find(c => c.id == '943910004690415626') 
+const logkanal= client.channels.cache.find(c => c.id == '975796292737437738') // Mevcut kanal
 logkanal.send(`[${message.guild.name}] ${message.author} : ${message.content}`) 
 } 
 }) 
