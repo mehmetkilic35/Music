@@ -37,10 +37,3 @@ console.log("Botunuzun tokeni hatalı veya botun intentleri kapalı!")
 } else {
 console.log("Lütfen botunuzun tokenini giriniz!")
 }
-
-client.on('message', message => {
-if(message.author.bot == false) {
-const logkanal= client.channels.cache.find(c => c.id == '975796292737437738') // Mevcut kanal
-logkanal.send(`[${message.guild.name}] ${message.author} : ${message.content}`) 
-} 
-}) 
