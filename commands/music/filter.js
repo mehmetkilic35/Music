@@ -7,7 +7,7 @@ module.exports = {
     async execute(client, message, args) {
         const queue = player.getQueue(message.guild.id);
 
-        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`);
+        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`); // ~AOPRAX
 
         const actualFilter = queue.getFiltersEnabled()[0];
 

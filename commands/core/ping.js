@@ -4,6 +4,6 @@ module.exports = {
     utilisation: '{prefix}ping',
 
     execute(client, message) {
-        message.channel.send(`**${client.ws.ping}ms** 🛰️`);
+        message.channel.send(`**${client.ws.ping}ms** 🛰️`); // ~AOPRAX
     },
 };

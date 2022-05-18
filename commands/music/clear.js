@@ -9,7 +9,7 @@ module.exports = {
 
         if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şu anda çalan müzik yok. ❌`);
 
-        if (!queue.tracks[0]) return message.channel.send(`${message.author}, Geçerli olandan sonra zaten sırada müzik yok. ❌`);
+        if (!queue.tracks[0]) return message.channel.send(`${message.author}, Geçerli olandan sonra zaten sırada müzik yok. ❌`);  // ~AOPRAX
 
         await queue.clear();
 

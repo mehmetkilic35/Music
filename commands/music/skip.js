@@ -7,10 +7,10 @@ module.exports = {
     execute(client, message) {
         const queue = player.getQueue(message.guild.id);
 
-        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`);
+        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`); // ~AOPRAX
 
         const success = queue.skip();
 
-        return message.channel.send(success ? `**${queue.current.title}**, İsimli şarkı atlandı. ✅` : `${message.author}, Bir şeyler yanlış gitti. ❌`);
+        return message.channel.send(success ? `**${queue.current.title}**, İsimli şarkı atlandı. ✅` : `${message.author}, Bir şeyler yanlış gitti. ❌`); // ~AOPRAX
     },
 };

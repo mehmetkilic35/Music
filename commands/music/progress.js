@@ -12,7 +12,7 @@ module.exports = {
         const progress = queue.createProgressBar();
         const timestamp = queue.getPlayerTimestamp();
 
-        if (timestamp.progress == 'Infinity') return message.channel.send(`Bu şarkı canlı yayınlanıyor, görüntülenecek süre verisi yok. 🎧`);
+        if (timestamp.progress == 'Infinity') return message.channel.send(`Bu şarkı canlı yayınlanıyor, görüntülenecek süre verisi yok. 🎧`); // ~AOPRAX
 
         message.channel.send(`${progress} (**${timestamp.progress}**%)`);
     },

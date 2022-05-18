@@ -9,7 +9,7 @@ module.exports = {
     execute(client, message, args) {
         const queue = player.getQueue(message.guild.id);
 
-        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`);
+        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`); // ~AOPRAX
 
         const vol = parseInt(args[0]);
 
@@ -21,6 +21,6 @@ module.exports = {
 
         const success = queue.setVolume(vol);
 
-        return message.channel.send(success ? `Ses seviyesi değiştirildi: **%${vol}**/**${maxVol}** 🔊` : `${message.author}, Birşeyler yanlış gitti. ❌`);
+        return message.channel.send(success ? `Ses seviyesi değiştirildi: **%${vol}**/**${maxVol}** 🔊` : `${message.author}, Birşeyler yanlış gitti. ❌`); // ~AOPRAX
     },
 };

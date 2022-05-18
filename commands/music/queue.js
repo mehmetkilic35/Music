@@ -11,7 +11,7 @@ module.exports = {
 
         if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`);
 
-        if (!queue.tracks[0]) return message.channel.send(`${message.author}, Geçerli olandan sonra sırada müzik yok. ❌`);
+        if (!queue.tracks[0]) return message.channel.send(`${message.author}, Geçerli olandan sonra sırada müzik yok. ❌`);  // ~AOPRAX
 
         const embed = new MessageEmbed();
         const methods = ['🔁', '🔂'];

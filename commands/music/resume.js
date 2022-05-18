@@ -11,6 +11,6 @@ module.exports = {
 
         const success = queue.setPaused(false);
 
-        return message.channel.send(success ? `**${queue.current.title}**, İsimli şarkı çalmaya devam ediyor.✅` : `${message.author}, Bir şeyler yanlış gitti. ❌`);
+        return message.channel.send(success ? `**${queue.current.title}**, İsimli şarkı çalmaya devam ediyor.✅` : `${message.author}, Bir şeyler yanlış gitti. ❌`); // ~AOPRAX
     },
 };

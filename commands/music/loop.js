@@ -9,7 +9,7 @@ module.exports = {
     execute(client, message, args) {
         const queue = player.getQueue(message.guild.id);
 
-        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`);
+        if (!queue || !queue.playing) return message.channel.send(`${message.author}, Şuanda çalan bir müzik yok!. ❌`); // ~AOPRAX
 
         if (args.join('').toLowerCase() === 'queue') {
             if (queue.repeatMode === 1) return message.channel.send(`${message.author}, İlk önce mevcut müziğin döngü modunu devre dışı bırakmalısınız. **(${client.config.px}loop)** ❌`);

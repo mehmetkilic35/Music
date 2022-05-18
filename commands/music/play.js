@@ -14,7 +14,7 @@ module.exports = {
             searchEngine: QueryType.AUTO
         });
 
-        if (!res || !res.tracks.length) return message.channel.send(`${message.author}, Sonuç bulunamadı! ❌`);
+        if (!res || !res.tracks.length) return message.channel.send(`${message.author}, Sonuç bulunamadı! ❌`); // ~AOPRAX
 
         const queue = await player.createQueue(message.guild, {
             metadata: message.channel

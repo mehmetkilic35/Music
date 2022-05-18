@@ -12,7 +12,7 @@ module.exports = {
         message.author.send(`Kaydedilen parça: **${queue.current.title}** | ${queue.current.author}, Kaydedilen sunucu: **${message.guild.name}** ✅`).then(() => {
             message.channel.send(`Müziğin adını özel mesajla gönderdim. ✅`);
         }).catch(error => {
-            message.channel.send(`${message.author}, Size özel mesaj gönderilemiyor. ❌`);
+            message.channel.send(`${message.author}, Size özel mesaj gönderilemiyor. ❌`); // ~AOPRAX
         });
     },
 };

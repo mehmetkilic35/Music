@@ -5,9 +5,9 @@ module.exports = {
 
     opt: {
         DJ: {
-            enabled: false, // ~AOPRAX
+            enabled: false,
             roleName: 'DJ', //DJ rolünüzün ismi. ~AOPRAX
-            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume']
+            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume']  // ~AOPRAX
         },
         maxVol: 250,
         loopMessage: false,
