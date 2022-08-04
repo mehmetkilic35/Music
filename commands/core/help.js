@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js');
 
 module.exports = {
     name: 'help',
-    aliases: ['h',"yardım","y"],
+    aliases: ['h',"yardım","y", "müzik"],
     showHelp: false,
     utilisation: '{prefix}help',
 
@@ -17,7 +17,7 @@ module.exports = {
         embed.addField(`Müzik Komutları`, commands.map(x => `\`${x.name}${x.aliases[0] ? ` (${x.aliases.map(y => y).join(', ')})\`` : '\`'}`).join(' | '));
 
         embed.setTimestamp();
-        embed.setFooter('Müzik Botu Komutları ~AOPRAX', message.author.avatarURL({ dynamic: true }));
+        embed.setFooter('KılıçMusic | PealDigital', message.author.avatarURL({ dynamic: true }));
 
         message.channel.send({ embeds: [embed] });
     },
