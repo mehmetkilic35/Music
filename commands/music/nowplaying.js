@@ -27,7 +27,7 @@ module.exports = {
         embed.setDescription(`Ses **%${queue.volume}**\nSüre **${trackDuration}**\nDöngü Modu **${methods[queue.repeatMode]}**\nMüziği Açan ${track.requestedBy}`);
 
         embed.setTimestamp();
-        embed.setFooter('Youtube: AOPRAX', message.author.avatarURL({ dynamic: true }));
+        embed.setFooter('KılıçMusic', message.author.avatarURL({ dynamic: true }));
 
         const saveButton = new MessageButton();
 

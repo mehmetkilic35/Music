@@ -1,6 +1,6 @@
 module.exports = {
         px: '.',
-        playing: 'Youtube: AOPRAX',
+        playing: '🎵 KılıçMusic',
         messageColor:'#FF6347',
 
     opt: {

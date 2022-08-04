@@ -11,6 +11,6 @@ module.exports = {
 
         queue.destroy();
 
-        message.channel.send(`Bu sunucuda çalan müzik kapatıldı, bir dahaki sefere görüşürüz. ✅`);
+        message.channel.send(`Şarkı durduruldu! ✅`);
     },
 };
