@@ -1,5 +1,5 @@
 module.exports = {
-        px: '.',
+        px: 'k!',
         playing: '🎵 KılıçMusic',
         messageColor:'#FF6347',
 

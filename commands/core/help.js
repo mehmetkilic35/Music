@@ -4,7 +4,7 @@ module.exports = {
     name: 'help',
     aliases: ['h',"yardım","y", "müzik"],
     showHelp: false,
-    utilisation: '{prefix}help',
+    utilisation: 'k!müzik',
 
     execute(client, message, args) {
         const embed = new MessageEmbed();
