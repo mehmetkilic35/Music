@@ -1,5 +1,5 @@
 const { Player } = require('discord-player');
-const { Client, Intents } = require('discord.js');  // ~AOPRAX
+const { Client, Intents } = require('discord.js'); 
 
 global.client = new Client({
     intents: [
@@ -13,7 +13,7 @@ global.client = new Client({
 
 global.client.config = require('./config');
 
-global.player = new Player(global.client, global.client.config.opt.discordPlayer); // ~AOPRAX
+global.player = new Player(global.client, global.client.config.opt.discordPlayer); 
 
 require('./src/loader');
 require('./src/events');
@@ -27,12 +27,12 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`); // ~AOPRAX
+  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`); 
 }, 60000);
 
 if(process.env.TOKEN){
 global.client.login(process.env.TOKEN).catch(e => {
-console.log("Botunuzun tokeni hatalı veya botun intentleri kapalı!") // ~AOPRAX
+console.log("Botunuzun tokeni hatalı veya botun intentleri kapalı!") 
 })
 } else {
 console.log("Lütfen botunuzun tokenini giriniz!")
