@@ -1,6 +1,9 @@
 const { Player } = require('discord-player');
 const { Client, Intents } = require('discord.js'); 
 
+
+
+
 global.client = new Client({
     intents: [
         Intents.FLAGS.GUILDS,
@@ -10,6 +13,9 @@ global.client = new Client({
     ],
     disableMentions: 'everyone',
 });
+
+
+
 
 global.client.config = require('./config');
 
