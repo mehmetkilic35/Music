@@ -1,7 +1,7 @@
 {
   "name": "glitch-v13-music-bot",
   "main": "main.js",
-  "author": "AOPRAX",
+  "author": "Mehmet",
   "description": "discord.js v13 glitch müzik botu",
   "scripts": {
     "start": "node main.js"
